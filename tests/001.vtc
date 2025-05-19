@@ -60,7 +60,6 @@ ${varnishlog-json_bin} -c -n ${v1_name} -dp
 
 	t .side client
 	t .id 1001
-	t .vcl vcl1
 	t .client.rAddr 127.0.0.1
 	t .client.sock a0
 

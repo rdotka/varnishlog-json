@@ -58,7 +58,6 @@ ${varnishlog-json_bin} -b -n ${v1_name} -d
 
 	t .side backend
 	t .id 1002
-	t .vcl vcl1
 	t .backend.rAddr 127.0.0.1
 	t .backend.rPort ${s1_port}
 	t .backend.connReused false
